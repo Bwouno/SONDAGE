@@ -1,0 +1,40 @@
+/* src/styles/App.css */
+
+.polls-list {
+  margin: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.polls-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.poll-card {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.poll-card h2 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.poll-card p {
+  color: #666;
+}
+
+.poll-card a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.poll-card a:hover {
+  text-decoration: underline;
+}
